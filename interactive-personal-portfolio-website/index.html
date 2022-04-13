@@ -1,0 +1,682 @@
+//Name: An Truong Huynh
+//Section: ZEE
+//ID: 123194219
+//Email: tahuynh3@myseneca.ca
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WEB222 assessment</title>
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="stylesheet" href="./assets/css/media_query.css">
+
+  <!--
+    - google font link
+  -->
+  <link href="https://fonts.googleapis.com/css?family=Jost:regular,500,800" rel="stylesheet" />
+
+</head>
+
+<body>
+
+
+  <!--
+    - container
+  -->
+
+  <div class="container">
+
+    <!--
+      - #HEADER
+    -->
+
+    <header>
+
+      <!--
+        - navbar toggle open button
+      -->
+
+      <button class="menu-open-btn">
+        <span>Menu</span>
+        <ion-icon name="menu-outline"></ion-icon>
+      </button>
+
+      <nav class="nav">
+
+        <button class="menu-close-btn">
+          <ion-icon name="close-outline"></ion-icon>
+        </button>
+
+        <h4 class="nav-heading">Menu</h4>
+
+        <ul>
+
+          <li class="nav-item">
+            <a href="#home" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#about" class="nav-link">About</a>
+          </li>
+          <li class="nav-item">
+            <a href="#portfolio" class="nav-link">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a href="#services" class="nav-link">Services</a>
+          </li>
+          <li class="nav-item">
+            <a href="#customers" class="nav-link">Customers</a>
+          </li>
+          <li class="nav-item">
+            <a href="#contact" class="nav-link">Contact</a>
+          </li>
+
+        </ul>
+
+
+        <div class="nav-footer">
+
+          <ul class="social-link">
+
+            <li>
+              <a href="#">
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#">
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#">
+                <ion-icon name="logo-behance"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#">
+                <ion-icon name="logo-github"></ion-icon>
+              </a>
+            </li>
+
+          </ul>
+
+          <p>Developed by <a href="#" class="link-underline">codewithsadee</a></p>
+
+        </div>
+
+      </nav>
+
+
+      <!--
+        - header intro
+      -->
+
+      <section class="intro section-padding">
+
+        <div class="intro-profile">
+
+          <div class="intro-border one"></div>
+          <div class="intro-border two"></div>
+
+          <div class="img-box">
+            <img src="./assets/images/profile.jpg" alt="" class="intro-img" width="100%" loading="lazy">
+          </div>
+
+          <p>Hi! I am An Huynh. A professional pet photographer</p>
+
+          <div class="profile-name">
+            <span>[</span>
+            <div>An Huynh</div>
+            <span>]</span>
+          </div>
+
+        </div>
+
+        <a href="#contact" class="intro-link">
+          <span class="circle"></span>
+          <span class="link-underline">I am currently available for professional photography project. Let's make your memory better.</span>
+        </a>
+
+      </section>
+
+    </header>
+
+
+
+
+
+    <main>
+
+      <!--
+        - #HOME
+      -->
+
+      <section class="section-padding" id="home">
+
+        <h3 class="section-subtitle">Introduction</h3>
+
+        <h2 class="section-title">Professional photographer/ Web Designer</h2>
+
+        <p class="section-desc">I design and develop photography and web services,
+          specializing in creating stylish, memorable moment for you or your behalf pet.</p>
+
+        <img src="./assets/images/signature.jpg" width="200px" alt="" loading="lazy">
+
+      </section>
+
+
+
+
+
+    
+
+      <section class="section-padding" id="about">
+
+        <h3 class="section-subtitle">My Information</h3>
+
+        <h2 class="section-title">About me</h2>
+
+        <p class="section-desc">I'm a freelancer photographer who loves to amaze people with my passional works.
+          I am from VietNam. I am studying at Seneca College and love to keep memories as pictures for amazing people
+          around. I love to work with everyone, love to create the best moment for my client and their pets. Work is enjoyable when you have passion about it.</p>
+
+
+        <table class="about-table">
+          <tr>
+            <th>Full Name</th>
+            <td>An Truong Huynh</td>
+          </tr>
+          <tr>
+            <th>Day Of Birth</th>
+            <td>December 9th 2001</td>
+          </tr>
+          <tr>
+            <th>Age</th>
+            <td>20 years old</td>
+          </tr>
+          <tr>
+            <th>Current Date</th>
+            <td>04/13/2022</td>
+          </tr>
+          <tr>
+            <th>Section</th>
+            <td>ZEE</td>
+          </tr>
+          <tr>
+            <th>Instructor</th>
+            <td>Noman Atique</td>
+          </tr>
+          <tr>
+            <th>Course</th>
+            <td>WEB222</td>
+          </tr>
+          
+            <tr type="text" name="city" list="cityname">
+              <th>City</th>
+<datalist>
+  <td><option value="Toronto">Toronto</option></td>
+  <td><option value="Ajax">Ajax</option></td>
+</datalist>
+          </tr>
+          <tr>
+            <th>Postal Code</th>
+            <td pattern="[A-Za-z]{3}">M5E1Z8</td>
+          </tr>
+          <tr>
+            <th>Phone</th>
+            <td>
+              <a href="tel:+11111112222" class="link-underline">(+1) 111 111 2222</a>
+            </td>
+          </tr>
+          <tr>
+            <th>Email Address</th>
+            <td>
+              <a href="mailto:tahuynh3@myseneca.ca" class="link-underline">tahuynh3@myseneca.ca</a>
+            </td>
+          </tr>
+          <tr>
+            <th>Twitter</th>
+            <td>
+              <a href="#" class="link-underline">@an.huynh00</a>
+            </td>
+          </tr>
+        </table>
+
+        <button class="download-cv">
+          <ion-icon name="cloud-download-outline"></ion-icon>
+          <p><a href="C:\Users\xxx\Downloads\code\interactive-personal-portfolio-website\assets\pdf" class="button">Download my CV</a></p>
+        </button>
+
+
+        <div class="about-tab">
+
+          <ul class="tab-nav">
+
+            <li>
+              <button class="one tab-button active">Experience</button>
+            </li>
+            <li>
+              <button class="two tab-button">Education</button>
+            </li>
+            <li>
+              <button class="three tab-button">Skills</button>
+            </li>
+
+          </ul>
+
+          <div class="tab-content-group">
+
+            <div class="one tab-content active">
+
+              <div class="content-card">
+
+                <div class="card-head">
+                  <h4>Amore Fashion</h4>
+                  <p>( 2018 — 2019 )</p>
+                </div>
+
+                <div class="card-body">
+                  <h3>Junior fashion designer</h3>
+                  <p>I was attempting to design clothes which are functional as well as aesthetically pleasing. I considered who is likely to wear a garment and the situations in which it will be worn and worked within a wide range of materials, colors, patterns and styles.</p>
+                </div>
+
+              </div>
+
+
+              <div class="content-card">
+
+                <div class="card-head">
+                  <h4>Pet Frame</h4>
+                  <p>( 2019 — currently )</p>
+                </div>
+
+                <div class="card-body">
+                  <h3>Professional photographer</h3>
+                  <p>I have done multiple project with my team at Pet Frame to well-rounded giving our customer the perfect photos. We also provide consultant service such as graphic design.</p>
+                </div>
+
+              </div>
+
+
+              
+
+            </div>
+
+
+            <div class="two tab-content">
+
+              <div class="content-card">
+
+                <div class="card-head">
+                  <h4>Breamar Higschool</h4>
+                  <p>( 2018 — 2020 )</p>
+                </div>
+
+                <div class="card-body">
+                  <h3>Highschool Student</h3>
+                  <p>I have finished and got all A in my secondary diploma. Here, I met a lot of individual that inspired me to be more creative and passionate.</p>
+                </div>
+
+              </div>
+
+
+              <div class="content-card">
+
+                <div class="card-head">
+                  <h4>Seneca College</h4>
+                  <p>( 2021 — Enrolling )</p>
+                </div>
+
+                <div class="card-body">
+                  <h3>Advance diploma</h3>
+                  <p>I am currently studying at one of the biggest College in Canada. I am enrolling in Computer Programming since that is always my dream job. I am trying hard to become the best developer of myself.</p>
+                </div>
+
+              </div>
+
+            </div>
+
+
+            <div class="three tab-content">
+
+              <div class="skill-box">
+                <h4 class="skill-name">Computer Photoshop</h4>
+
+                <div class="progress-bar">
+                  <div class="progress" style="width: 90%;"></div>
+                  <div class="progress-rate" style="left: 90%;">90%</div>
+                </div>
+              </div>
+
+              <div class="skill-box">
+                <h4 class="skill-name">HTML & CSS & JavaScript</h4>
+
+                <div class="progress-bar">
+                  <div class="progress" style="width: 92%;"></div>
+                  <div class="progress-rate" style="left: 92%;">92%</div>
+                </div>
+              </div>
+
+              <div class="skill-box">
+                <h4 class="skill-name">Design</h4>
+
+                <div class="progress-bar">
+                  <div class="progress" style="width: 80%;"></div>
+                  <div class="progress-rate" style="left: 80%;">80%</div>
+                </div>
+              </div>
+
+              <div class="skill-box">
+                <h4 class="skill-name">Creating Contents</h4>
+
+                <div class="progress-bar">
+                  <div class="progress" style="width: 85%;"></div>
+                  <div class="progress-rate" style="left: 85%;">85%</div>
+                </div>
+              </div>
+
+              <p class="skill-text">
+                A freelance creative designer with love, create perfect photography
+                clean typography and well-written code, located in Toronto.
+                Provide high quality and responsive web services. Wide range 
+                of web development services across the world.
+              </p>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </section>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <section class="section-padding" id="portfolio">
+
+        <h3 class="section-subtitle">Portfolio</h3>
+
+        <div class="wrapper">
+
+          <h2 class="section-title">Latest Project</h2>
+
+          <div class="btn-group">
+            <button id="portfolio-carousel-prev">
+              <div class="arrow">
+                <div class="arrow-head-left"></div>
+              </div>
+            </button>
+
+            <button id="portfolio-carousel-next">
+              <div class="arrow">
+                <div class="arrow-head-right"></div>
+              </div>
+            </button>
+          </div>
+
+        </div>
+
+        <div class="portfolio-carousel">
+
+          <div class="portfolio-carousel-inner">
+
+            <div class="portfolio-carousel-card">
+
+              <div class="card-head">
+                <img src="./assets/images/pj1.jpg" alt="" class="slider-img" width="100%" loading="lazy">
+              </div>
+
+              <div class="card-body">
+                <p>Design, Photography</p>
+                <h4><a href="#">Black and white pet and owner.</a></h4>
+              </div>
+
+            </div>
+
+
+            <div class="portfolio-carousel-card">
+
+              <div class="card-head">
+                <img src="./assets/images/pj2.jpg" alt="" class="slider-img" width="100%" loading="lazy">
+              </div>
+
+              <div class="card-body">
+                <p>Fair Game</p>
+                <h4><a href="#">Twin Project</a></h4>
+              </div>
+
+            </div>
+
+
+            <div class="portfolio-carousel-card">
+
+              <div class="card-head">
+                <img src="./assets/images/pj3.jpg" alt="" class="slider-img" width="100%" loading="lazy">
+              </div>
+
+              <div class="card-body">
+                <p>Eyes and Souls</p>
+                <h4><a href="#">Connection Project</a></h4>
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </section>
+
+      <section class="section-padding" id="services">
+
+        <h3 class="section-subtitle">Services</h3>
+
+        <h2 class="section-title">What can I do for you?</h2>
+
+        <p class="section-desc">I help ambitious businesses like yours generate more profits by building awareness,
+          driving web traffic, connecting with customers and growing overall sales.</p>
+
+
+        <div class="service-cards-group">
+
+          <div class="service-card">
+
+            <div class="card-body">
+              <h3>Photography Consultant</h3>
+              <p>I create the best content and concept of photos. Custom crafted
+                concept solutions.</p>
+            </div>
+
+            <div class="card-footer">
+              <span>Start from</span>
+              <div>$100</div>
+            </div>
+
+          </div>
+
+
+          <div class="service-card">
+
+            <div class="card-body">
+              <h3>Design Web Page</h3>
+              <p>Custom web style solutions. Get your web on the next level.</p>
+            </div>
+
+            <div class="card-footer">
+              <span>Start from</span>
+              <div>$300</div>
+            </div>
+
+          </div>
+
+        </div>
+
+      </section>
+
+
+
+
+
+      
+
+      <section class="section-padding" id="customers">
+
+        <h3 class="section-subtitle">Customers</h3>
+
+        <h2 class="section-title">Happy People</h2>
+
+        <div class="wrapper">
+
+          <a href="#">
+            <div class="img-box">
+              <img src="./assets/images/fb1.jpg" alt="" width="160px" loading="lazy">
+            </div>
+          </a>
+
+          <a href="#">
+            <div class="img-box">
+              <img src="./assets/images/fb2.jpg" alt="" width="160px" loading="lazy">
+            </div>
+          </a>
+
+          <a href="#">
+            <div class="img-box">
+              <img src="./assets/images/fb3.jpg" alt="" width="160px" loading="lazy">
+            </div>
+          </a>
+
+          
+
+        </div>
+
+
+        <div class="testimonials">
+
+          <div class="testimonials-content">
+            <p>
+              “ An had done an amazing job on my dog birthday photo shoot, she also created an professional web page for my family pet store business. I am really happy with the services which is provided by her. Great job! ”
+            </p>
+
+            <div class="title">Marry P</div>
+            <div class="subtitle">Client</div>
+          </div>
+
+        </div>
+
+      </section>
+
+
+
+
+
+      
+
+      <section class="section-padding" id="contact">
+
+        <h3 class="section-subtitle">Contact</h3>
+
+        <h2 class="section-title">Contact me or leave a message.</h2>
+
+        <p class="section-desc">If you have any concern or project which is needed to be done please
+          do ot hesitate contact me by fill out the form below and I will reply you shortly. Thank you!</p>
+
+
+        <form action="#" class="contact-form">
+
+          <div class="wrapper">
+
+            <div>
+              <label for="name">Name *</label>
+              <input type="text" name="name" id="name" required>
+            </div>
+
+            <div>
+              <label for="email">Email Address *</label>
+              <input type="email" name="email" id="email" required>
+            </div>
+
+          </div>
+
+          <div>
+            <label for="phone">Phone (optional)</label>
+            <input type="tel" name="phone" id="phone">
+          </div>
+
+          <div>
+            <label for="message">Message *</label>
+            <textarea name="message" id="message" rows="8"></textarea>
+          </div>
+
+          <button type="submit">Comment</button>
+
+        </form>
+
+        <div class="address">
+          <h4>Address</h4>
+          <address>01 Happy St, Toronto, Ontario, Canada</address>
+        </div>
+
+        <div class="phone">
+          <h4>Phone</h4>
+          <a href="tel:+11111112222">(+1) 111-111-2222</a>
+        </div>
+
+        <div class="email">
+          <a href="mailto:tahuynh3@myseneca.ca" class="link-underline">tahuynh3@myseneca.ca</a>
+        </div>
+
+      </section>
+
+      <div class="footer">
+
+        <a href="#home" class="go-top">
+          <div class="arrow">
+            <div class="arrow-head"></div>
+          </div>
+        </a>
+
+        
+
+      </div>
+
+    </main>
+
+  </div>
+
+
+
+
+
+
+  <script src="./assets/js/script.js"></script>
+
+
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
